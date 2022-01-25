@@ -1,6 +1,6 @@
 # Anomaly Detection
 
-Project for real time anomaly detection using kafka and Python
+Project for real time anomaly detection using kafka and Python.
 
 It's assumed that zookeeper and kafka are running in the localhost, it follows this process:
 
@@ -13,6 +13,7 @@ It's assumed that zookeeper and kafka are running in the localhost, it follows t
 an anomaly arrives
 
 # Demo
+
 Generate dummy transactions into a kafka topic:
 ![Transactions](./docs/transactions_producer.gif)
 
