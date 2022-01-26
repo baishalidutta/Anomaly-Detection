@@ -69,3 +69,7 @@ then run
 ```bash
 streaming/bot_alerts.py
 ```
+
+## Developer
+
+Baishali Dutta (<a href='mailto:me@itsbaishali.com'>me@itsbaishali.com</a>)
