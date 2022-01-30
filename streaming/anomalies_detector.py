@@ -5,11 +5,10 @@ __version__ = "0.1"
 
 import json
 import logging
-import os
-from multiprocessing import Process
-
 import numpy as np
+import os
 from joblib import load
+from multiprocessing import Process
 
 from settings import TRANSACTIONS_TOPIC, TRANSACTIONS_CONSUMER_GROUP, ANOMALIES_TOPIC, NUM_PARTITIONS
 from streaming.utils import create_producer, create_consumer
