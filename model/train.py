@@ -1,7 +1,6 @@
+import numpy as np
 import random
 from joblib import dump
-
-import numpy as np
 from sklearn.ensemble import IsolationForest
 
 rng = np.random.RandomState(42)
@@ -16,4 +15,3 @@ clf = IsolationForest(n_estimators=50, max_samples=500, random_state=rng, contam
 clf.fit(X_train)
 
 dump(clf, './isolation_forest.joblib')
-
