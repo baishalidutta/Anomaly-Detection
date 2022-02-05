@@ -24,7 +24,6 @@ Producer and anomaly detection running at the same time
 
 ![Concurrent](./docs/concurrent.gif)
 
-
 Send notifications to Slack
 ![Slack](./docs/slack_alerts.gif)
 
